@@ -1,16 +1,17 @@
 #include <stdio.h>
 int main (){
 
-    int i, j, k;
+    int i, j, k, l, c;
 j = 0;
 k = 0;
-
+l = 0;
+c = 1;
     printf("Mover torre para direita\n\n");
     
 // move torre 5 casas para a direita.
     for ( i = 0; i < 5; i++)
     {
-        printf("DIREITA\n");
+        printf("Direita\n");
     }
 
     printf("\n");
@@ -35,6 +36,18 @@ k = 0;
 
         k++;
     } while (k <= 7);
+
+        printf("mover cavalo para 2 casas para baixo e uma para esquerda\n\n");
+
+       while (l--);
+       {
+        for ( c = 0; c < 2; c++)
+        {
+            printf("Baixo\n");
+        }
+            printf("Esquerda\n");
+       }
+       
     
     
 }
